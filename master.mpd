@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT4.00S" mediaPresentationDuration="PT2H40M12.958S" type="static">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=2.0.0-625 -->
+  <Period>
+    <!-- Video -->
+    <AdaptationSet contentType="text" mimeType="text/vtt" lang="en">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="subtitle"/>
+      <Representation id="subtitle/lang_eng_1700056683883/subtitle" bandwidth="16444">
+         <BaseURL>subtitle/lang_eng_1700056683883/subtitle.vtt</BaseURL>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" maxWidth="1920" maxHeight="1080">
+      <SegmentTemplate timescale="1000" duration="4000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1"/>
+      <Representation id="video_h265_fhd_sdr_1699755660498/hvc1/2" codecs="hvc1.1.6.L60.90" width="426" height="240" scanType="progressive" frameRate="24" bandwidth="446302"/>
+      <Representation id="video_h265_fhd_sdr_1699755660498/hvc1/3" codecs="hvc1.1.6.L63.90" width="640" height="360" scanType="progressive" frameRate="24" bandwidth="712422"/>
+      <Representation id="video_h265_fhd_sdr_1699755660498/hvc1/4" codecs="hvc1.1.6.L90.90" width="854" height="480" scanType="progressive" frameRate="24" bandwidth="960887"/>
+      <Representation id="video_h265_fhd_sdr_1699755660498/hvc1/5" codecs="hvc1.1.6.L93.90" width="1280" height="720" scanType="progressive" frameRate="24" bandwidth="1536035"/>
+      <Representation id="video_h265_fhd_sdr_1699755660498/hvc1/6" codecs="hvc1.1.6.L120.90" width="1920" height="1080" scanType="progressive" frameRate="24" bandwidth="2837002"/>
+      <Representation id="video_h265_fhd_sdr_1699755660498/hvc1/7" codecs="hvc1.1.6.L120.90" width="1920" height="1080" scanType="progressive" frameRate="24" bandwidth="5344603"/>
+    </AdaptationSet>
+  <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="ml">
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate timescale="1000" duration="4000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1"/>
+      <Representation id="audio_aac_1699746690019/ml/mp4a/1" codecs="mp4a.40.2" bandwidth="50971" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio_aac_1699746690019/ml/mp4a/2" codecs="mp4a.40.2" bandwidth="67369" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio_aac_1699746690019/ml/mp4a/3" codecs="mp4a.40.2" bandwidth="129699" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+    </AdaptationSet>
+  <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="ta">
+      <SegmentTemplate timescale="1000" duration="4000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1"/>
+      <Representation id="audio_aac_1699783151467/ta/mp4a/1" codecs="mp4a.40.2" bandwidth="50691" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio_aac_1699783151467/ta/mp4a/2" codecs="mp4a.40.2" bandwidth="65699" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio_aac_1699783151467/ta/mp4a/3" codecs="mp4a.40.2" bandwidth="129699" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+    </AdaptationSet>
+  <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="kn">
+      <SegmentTemplate timescale="1000" duration="4000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1"/>
+      <Representation id="audio_aac_1699783148885/kn/mp4a/1" codecs="mp4a.40.2" bandwidth="50747" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio_aac_1699783148885/kn/mp4a/2" codecs="mp4a.40.2" bandwidth="65701" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio_aac_1699783148885/kn/mp4a/3" codecs="mp4a.40.2" bandwidth="129699" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+    </AdaptationSet>
+  <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="hi">
+      <SegmentTemplate timescale="1000" duration="4000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1"/>
+      <Representation id="audio_aac_1699783157497/hi/mp4a/1" codecs="mp4a.40.2" bandwidth="50679" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio_aac_1699783157497/hi/mp4a/2" codecs="mp4a.40.2" bandwidth="65701" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio_aac_1699783157497/hi/mp4a/3" codecs="mp4a.40.2" bandwidth="129699" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+    </AdaptationSet>
+  <AdaptationSet mimeType="audio/mp4" startWithSAP="1" segmentAlignment="true" lang="te">
+      <SegmentTemplate timescale="1000" duration="4000" initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/seg-$Number$.m4s" startNumber="1"/>
+      <Representation id="audio_aac_1699934222003/te/mp4a/1" codecs="mp4a.40.2" bandwidth="50725" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio_aac_1699934222003/te/mp4a/2" codecs="mp4a.40.2" bandwidth="65699" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio_aac_1699934222003/te/mp4a/3" codecs="mp4a.40.2" bandwidth="129699" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
