@@ -102,3 +102,7 @@ https://livetv-push.hotstar.com/dash/live/2002470/ssselecthd1wv/master.mpd|User-
 #KODIPROP:inputstream.adaptive.license_key=fe7718fbb3fb4ba78c07cc0f578744e6:624e24b1843b459fab0a949609416f0d
 #EXTINF:-1 tvg-id="Star Sports Select HD2" tvg-name="Star Sports Select HD2" group-title="Sports" tvg-language="English" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7437/567437-h",Star Sports Select HD2
 https://livetv-push.hotstar.com/dash/live/2002471/ssselecthd2wv/master.mpd|User-agent=Hotstar;in.startv.hotstar/25.11.24.0.4237 (Android/13)&cookie=hdntl=exp=1768233844~acl=*ssselecthd2*~id=8595ca14a5600b04b4061efe876231c2~data=hdntl~hmac=faefdafe318358e0d0da0564cded654f5f6894a0b21e1be9a3b685585633f2e4&Referer=https://www.hotstar.com/&Origin=https://www.hotstar.com
+
+#KODIPROP:inputstream.adaptive.license_type=com.clearkey.alpha
+#EXTINF:-1 tvg-id="Star Sports Select HD2" tvg-name="RajaSaab" group-title="Sports" tvg-language="English" tvg-logo="https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/7437/567437-h",Rajasaab
+https://hses9-vod-cf.cdn.hotstar.com/videos/hotstarint/therajasaab/1271527032/v3/1769972381389/c811af9e895e40605b055c0c2c4227f1/master-e4f13bb80e-1770300405430.mpd
